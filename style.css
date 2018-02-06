@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+flex: 1;
+}
+.panels{
+
+    text-align: center;
+width: 100%;
+height: 50%;
+}
+.panel{
+
+    border:1px solid black;
+background-size:cover;
+    align-items: center;
+    background-position: center;
+    /*display: flex;*/
+}
+.p1{
+    /*height: 50%;*/
+    background-image: url("http://via.placeholder.com/350x1150");
+
+}
+.p2{
+    /*height: 100%;*/
+    background-image: url("http://via.placeholder.com/350x1250");
+
+}
+.p3{
+    /*height: 100%;*/
+    background-image: url("http://via.placeholder.com/350x1300");
+
+}
